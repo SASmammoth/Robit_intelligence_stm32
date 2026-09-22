@@ -1,0 +1,62 @@
+*.odt
+.vscode
+
+Lecture_materials
+
+main
+
+
+# Build outputs
+Debug/
+Release/
+build/
+cmake-build-*/
+
+# Object files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+*.su
+
+# STM32CubeMX generated (선택적으로 유지 가능)
+# Middlewares/
+# Drivers/
+
+# STM32CubeIDE project settings
+.settings/
+.cproject
+.project
+.mxproject
+
+# STM32CubeMX
+*.ioc.bak
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# OpenOCD / debug
+*.cfg.bak
+gdb.txt
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
