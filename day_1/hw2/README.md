@@ -34,7 +34,9 @@ https://drive.google.com/file/d/1kzjmrk5I4juCI9yivydvI6mQoxva5_Qd/view?usp=shari
 	  {
 		 adc_update_flag = 0;
 		 adc1_value = adcl_buffer[0]; // 값 복사 원본 값
-
+		
+		/* 정규화 부분 생략 */
+		
   		mov_mean_buffer[mov_mean_index] = adc1_value; // 버퍼에 원시 값 추가
   		mov_mean_index++; // 인덱스에 1 추가
   		if(mov_mean_index >= MOV_MEAN_SIZE) mov_mean_index = 0;
